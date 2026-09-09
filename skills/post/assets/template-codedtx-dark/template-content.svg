@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <defs>
+    <style>
+      .bg { fill: #0B172A; }
+      .grid { stroke: rgba(255, 255, 255, 0.04); stroke-width: 1; }
+      .logo-text { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 28px; fill: #FFFFFF; }
+      .eyebrow { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 18px; letter-spacing: 2.5px; fill: #FF6B00; text-transform: uppercase; }
+      .headline { font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 58px; line-height: 1.2; fill: #FFFFFF; }
+      .hl-accent { fill: #FF6B00; }
+      .card-bg { fill: #13233B; stroke: #1E293B; stroke-width: 1.5; }
+      .card-num { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 18px; fill: #FF6B00; }
+      .card-title { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 20px; fill: #FFFFFF; }
+      .card-desc { font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 16px; fill: #94A3B8; }
+      .takeaway-box { fill: url(#takeaway-grad); }
+      .takeaway-title { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 16px; fill: rgba(255,255,255,0.75); letter-spacing: 2px; text-transform: uppercase; }
+      .takeaway-text { font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 26px; line-height: 1.45; fill: #FFFFFF; }
+      .footer-url { font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 20px; fill: #64748B; }
+      .illus-bg { fill: #0F1E33; }
+      .illus-label { font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 14px; fill: #475569; letter-spacing: 1.5px; text-transform: uppercase; }
+    </style>
+    <linearGradient id="takeaway-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B00"/>
+      <stop offset="100%" stop-color="#E0243A"/>
+    </linearGradient>
+    <pattern id="grid-pattern" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" class="grid" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1350" class="bg" />
+  <rect width="1080" height="1350" fill="url(#grid-pattern)" />
+
+  <!-- Header: Eyebrow + Logo -->
+  <g transform="translate(90, 80)">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#FF6B00" stroke-width="4" />
+    <text x="56" y="6" class="eyebrow">THE FRAMEWORK</text>
+
+    <g transform="translate(750, -10)">
+      <image href="data:image/png;base64,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" width="200" height="52" preserveAspectRatio="xMidYMid meet" />
+    </g>
+  </g>
+
+  <!-- Main Headline -->
+  <g transform="translate(90, 185)">
+    <text class="headline">
+      <tspan x="0" dy="0">Where to put the</tspan>
+      <tspan x="0" dy="68" class="hl-accent">guardrails</tspan>
+    </text>
+  </g>
+
+  <!-- Left Column: Illustration Card -->
+  <g transform="translate(90, 330)">
+    <rect width="440" height="400" rx="16" class="illus-bg" />
+    <!-- Static placeholder icon — replaced at build time with generated illustration -->
+    <g transform="translate(220, 165)" opacity="0.6">
+      <circle cx="0" cy="-30" r="18" fill="#FF6B00" opacity="0.5"/>
+      <path d="M -120 60 L -42 -24 L 6 20 L 52 -36 L 120 60 Z" fill="#FF6B00" opacity="0.55" />
+      <path d="M -120 60 L -18 14 L 28 48 L 70 6 L 120 60 Z" fill="#0B172A" opacity="0.9" />
+    </g>
+    <text x="220" y="350" class="illus-label" text-anchor="middle">Add your visual here</text>
+  </g>
+
+  <!-- Right Column: 4 Framework Cards -->
+  <g transform="translate(555, 330)">
+    <!-- Card 01 -->
+    <rect width="435" height="88" rx="12" class="card-bg" />
+    <text x="22" y="34" class="card-num">01</text>
+    <text x="62" y="34" class="card-title">Context</text>
+    <text x="22" y="60" class="card-desc">Give the model the same constraints</text>
+    <text x="22" y="78" class="card-desc">you give a new engineer.</text>
+
+    <!-- Card 02 -->
+    <g transform="translate(0, 104)">
+      <rect width="435" height="88" rx="12" class="card-bg" />
+      <text x="22" y="34" class="card-num">02</text>
+      <text x="62" y="34" class="card-title">Review</text>
+      <text x="22" y="60" class="card-desc">Review effort scales with volume.</text>
+      <text x="22" y="78" class="card-desc">Budget for it deliberately.</text>
+    </g>
+
+    <!-- Card 03 -->
+    <g transform="translate(0, 208)">
+      <rect width="435" height="88" rx="12" class="card-bg" />
+      <text x="22" y="34" class="card-num">03</text>
+      <text x="62" y="34" class="card-title">Tests</text>
+      <text x="22" y="60" class="card-desc">Tests are the contract. Write them</text>
+      <text x="22" y="78" class="card-desc">before generation, not after.</text>
+    </g>
+
+    <!-- Card 04 -->
+    <g transform="translate(0, 312)">
+      <rect width="435" height="88" rx="12" class="card-bg" />
+      <text x="22" y="34" class="card-num">04</text>
+      <text x="62" y="34" class="card-title">Ownership</text>
+      <text x="22" y="60" class="card-desc">Every merged line has a human</text>
+      <text x="22" y="78" class="card-desc">name against it. No exceptions.</text>
+    </g>
+  </g>
+
+  <!-- Takeaway Callout Box -->
+  <g transform="translate(90, 780)">
+    <rect width="900" height="210" rx="16" class="takeaway-box" />
+    <g transform="translate(48, 46)">
+      <text class="takeaway-title">WHAT WE TELL OUR TEAMS</text>
+      <text y="46" class="takeaway-text">
+        <tspan x="0" dy="0">Ship what you can explain, test, and own</tspan>
+        <tspan x="0" dy="42">six months from now. Everything else is</tspan>
+        <tspan x="0" dy="42">borrowed time.</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Footer Divider Line -->
+  <line x1="90" y1="1210" x2="990" y2="1210" stroke="#1E293B" stroke-width="2" />
+
+  <!-- Footer -->
+  <g transform="translate(90, 1260)">
+    <a href="https://www.codedtx.com/" target="_blank" style="text-decoration:none;">
+      <text x="0" y="0" class="footer-url">codedtx.com</text>
+    </a>
+    <text x="900" y="0" class="footer-url" text-anchor="end">PAGE</text>
+  </g>
+</svg>
