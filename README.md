@@ -12,25 +12,14 @@ Each skill lives in its own folder under [`skills/`](skills/) with a `SKILL.md` 
 | angular-architect | custom |
 | angular-developer | plugin |
 | code-reviewer | custom |
-| codedtx-carousel-layout | plugin |
-| codedtx-post | plugin |
 | debugging-wizard | custom |
-| docx | anthropic |
-| import-memory | anthropic-example |
 | legacy-modernizer | custom |
-| linkedin-post-manager | plugin |
-| morning | anthropic-example |
-| pdf | anthropic |
-| post | custom |
-| pptx | anthropic |
-| pugazh | plugin |
 | react-expert | custom |
 | report | custom |
 | secure-code-guardian | custom |
 | skill-creator | anthropic-example |
 | test-master | custom |
 | web-quality | plugin |
-| xlsx | anthropic |
 
 - **custom** — authored directly by the user
 - **plugin** — installed from a marketplace plugin
