@@ -11,6 +11,7 @@ Each skill lives in its own folder under [`skills/`](skills/) with a `SKILL.md` 
 | advanced-architecture-review | custom |
 | angular-architect | custom |
 | angular-developer | plugin |
+| cache-components | imported |
 | code-reviewer | custom |
 | debugging-wizard | custom |
 | legacy-modernizer | custom |
@@ -19,7 +20,10 @@ Each skill lives in its own folder under [`skills/`](skills/) with a `SKILL.md` 
 | next-cache-components-optimizer | imported |
 | next-dev-loop | imported |
 | next-partial-prefetching-adoption | imported |
+| nextjs | imported |
+| nextjs-16-perf-cache | imported |
 | nextjs-developer | imported |
+| nextjs-seo | imported |
 | playwright-expert | imported |
 | react-expert | custom |
 | report | custom |
@@ -40,3 +44,6 @@ The following skills were added manually (not via the `~/.claude/skills` sync) a
 
 - `typescript-pro`, `playwright-expert`, `nextjs-developer`, `nestjs-expert` — from [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills)
 - `next-cache-components-adoption`, `next-cache-components-optimizer`, `next-dev-loop`, `next-partial-prefetching-adoption` — from the official [vercel/next.js](https://github.com/vercel/next.js) `nextjs` plugin (`skills/` directory, canary branch)
+- `nextjs` — from [pproenca/dotskills](https://github.com/pproenca/dotskills) (`master/skills.curated/nextjs`)
+- `nextjs-seo`, `cache-components` — from [laguagu/claude-code-nextjs-skills](https://github.com/laguagu/claude-code-nextjs-skills)
+- `nextjs-16-perf-cache` — hand-authored Next.js 16 performance/caching skill, uploaded as a plain Markdown file; wrapped with standard `SKILL.md` frontmatter to match this repo's convention
