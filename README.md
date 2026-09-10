@@ -24,12 +24,16 @@ Each skill lives in its own folder under [`skills/`](skills/) with a `SKILL.md` 
 | nextjs-16-perf-cache | imported |
 | nextjs-developer | imported |
 | nextjs-seo | imported |
+| playwright | imported |
 | playwright-expert | imported |
+| react | imported |
 | react-expert | custom |
+| react-hook-form | imported |
 | report | custom |
 | secure-code-guardian | custom |
 | skill-creator | anthropic-example |
 | test-master | custom |
+| typescript | imported |
 | typescript-pro | imported |
 | web-quality | plugin |
 
@@ -47,3 +51,4 @@ The following skills were added manually (not via the `~/.claude/skills` sync) a
 - `nextjs` — from [pproenca/dotskills](https://github.com/pproenca/dotskills) (`master/skills.curated/nextjs`)
 - `nextjs-seo`, `cache-components` — from [laguagu/claude-code-nextjs-skills](https://github.com/laguagu/claude-code-nextjs-skills)
 - `nextjs-16-perf-cache` — hand-authored Next.js 16 performance/caching skill, uploaded as a plain Markdown file; wrapped with standard `SKILL.md` frontmatter to match this repo's convention
+- `playwright`, `react-hook-form`, `typescript`, `react` — from [pproenca/dotskills](https://github.com/pproenca/dotskills) (`master/skills.curated/`); distinct from the same-topic `playwright-expert`, `typescript-pro`, `react-expert` skills from Jeffallan/claude-skills
