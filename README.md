@@ -14,13 +14,29 @@ Each skill lives in its own folder under [`skills/`](skills/) with a `SKILL.md` 
 | code-reviewer | custom |
 | debugging-wizard | custom |
 | legacy-modernizer | custom |
+| nestjs-expert | imported |
+| next-cache-components-adoption | imported |
+| next-cache-components-optimizer | imported |
+| next-dev-loop | imported |
+| next-partial-prefetching-adoption | imported |
+| nextjs-developer | imported |
+| playwright-expert | imported |
 | react-expert | custom |
 | report | custom |
 | secure-code-guardian | custom |
 | skill-creator | anthropic-example |
 | test-master | custom |
+| typescript-pro | imported |
 | web-quality | plugin |
 
 - **custom** — authored directly by the user
 - **plugin** — installed from a marketplace plugin
 - **anthropic** / **anthropic-example** — built-in skills shipped by Anthropic
+- **imported** — added manually from an external source (not part of the account sync); see below
+
+## Imported skills
+
+The following skills were added manually (not via the `~/.claude/skills` sync) and are not reflected in `skills/manifest.json`:
+
+- `typescript-pro`, `playwright-expert`, `nextjs-developer`, `nestjs-expert` — from [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills)
+- `next-cache-components-adoption`, `next-cache-components-optimizer`, `next-dev-loop`, `next-partial-prefetching-adoption` — from the official [vercel/next.js](https://github.com/vercel/next.js) `nextjs` plugin (`skills/` directory, canary branch)
