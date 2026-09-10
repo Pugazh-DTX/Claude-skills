@@ -8,11 +8,9 @@ Each skill lives in its own folder under [`skills/`](skills/) with a `SKILL.md` 
 
 | Skill | Source |
 | --- | --- |
-| advanced-architecture-review | custom |
 | angular-architect | custom |
 | angular-developer | plugin |
 | cache-components | imported |
-| code-reviewer | custom |
 | debugging-wizard | custom |
 | legacy-modernizer | custom |
 | nestjs-expert | imported |
@@ -29,10 +27,7 @@ Each skill lives in its own folder under [`skills/`](skills/) with a `SKILL.md` 
 | react | imported |
 | react-expert | custom |
 | react-hook-form | imported |
-| report | custom |
 | secure-code-guardian | custom |
-| skill-creator | anthropic-example |
-| test-master | custom |
 | typescript | imported |
 | typescript-pro | imported |
 | web-quality | plugin |
